@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start SSH Tunnel to helios",
+            "type": "shell",
+            "command": "ssh -L 2222:localhost:22 s338859@helios.cs.ifmo.ru -p 2222",
+            "problemMatcher": []
+        }
+    ]
+}
